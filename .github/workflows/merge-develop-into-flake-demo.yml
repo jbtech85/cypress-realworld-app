@@ -1,8 +1,8 @@
 name: Merge develop into flake-demo
-on:
-  push:
-    branches:
-      - develop
+on: [workflow_dispatch]
+  # push:
+  #   branches:
+  #     - develop
 jobs:
   merge-master-into-develop:
     runs-on: ubuntu-latest
